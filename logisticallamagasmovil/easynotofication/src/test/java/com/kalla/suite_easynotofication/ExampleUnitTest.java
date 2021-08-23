@@ -1,4 +1,4 @@
-package com.kalla.suite_easynotification;
+package com.kalla.suite_easynotofication;
 
 import org.junit.Test;
 

@@ -17,16 +17,17 @@
             android:exported="true" />
         <activity
             android:name="com.example.tscdll.TSCActivity"
-            android:exported="true">
+            android:exported="true"/>
+
+        <activity
+            android:name=".gui.PermisosActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".gui.PermisosActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

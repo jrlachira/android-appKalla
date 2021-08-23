@@ -1,0 +1,4 @@
+include ':app'
+include ':easycx'
+include ':easynotification'
+include ':easygps'

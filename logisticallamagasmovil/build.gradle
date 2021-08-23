@@ -1,0 +1,48 @@
+
+buildscript {
+    ext.objectboxVersion = '2.5.1'
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.fabric.io/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath "io.objectbox:objectbox-gradle-plugin:$objectboxVersion"
+        classpath 'com.akaita.android:easylauncher:1.2.0'
+        classpath 'io.fabric.tools:gradle:1.+'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+
+    }
+    project.ext {
+        minSdkVersion = 22
+        targetSdkVersion = 26
+        compileSdkVersion = 26
+        retrofitVersion = '2.4.0'
+        okhttpVersion = '3.11.0'
+        okhttpInterceptorVersion = '3.4.1'
+        appcompatv7Version = '26.1.0'
+        designVersion = '25.0.1'
+        constraintlayoutVersion = '1.1.3'
+        playservicesmapsVersion = '15.0.1'
+        playserviceslocationVersion = '15.0.1'
+        socketclusterclientjavaVersion = '1.7.5'
+        nvwebsocketclientVersion = '2.9'
+        materialintroscreenVersion = '0.0.5'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

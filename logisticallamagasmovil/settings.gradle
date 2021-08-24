@@ -1,4 +1,4 @@
 include ':app'
 include ':easycx'
 include ':easygps'
-include ':easynotofication'
+include ':easynotification'

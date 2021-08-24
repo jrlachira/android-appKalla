@@ -1,4 +1,4 @@
-package com.kalla.suite_easynotofication;
+package com.kalla.suite_easynotification;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.kalla.suite_easynotofication.test", appContext.getPackageName());
+        assertEquals("com.kalla.suite_easynotification.test", appContext.getPackageName());
     }
 }

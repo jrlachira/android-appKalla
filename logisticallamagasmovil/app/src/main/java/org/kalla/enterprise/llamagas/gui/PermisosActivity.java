@@ -8,11 +8,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.crashlytics.android.Crashlytics;
-
 import org.kalla.enterprise.llamagas.R;
 
-import io.fabric.sdk.android.Fabric;
 
 public class PermisosActivity extends AppCompatActivity {
     private static final int PETICION_PERMISOS = 123;
@@ -38,7 +35,6 @@ public class PermisosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ly_permisos);
-        Fabric.with(this, new Crashlytics());
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             ActivityCompat.requestPermissions(PermisosActivity.this, LISTA_PERMISOS, PETICION_PERMISOS);

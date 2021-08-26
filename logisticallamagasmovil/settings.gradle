@@ -1,4 +1,9 @@
 include ':app'
-include ':easycx'
 include ':easygps'
 include ':easynotification'
+include ':easycx'
+project(':easygps').projectDir=new File('D:/AppKalla/easygps')
+project(':easynotification').projectDir=new File('D:/AppKalla/easynotification')
+project(':easycx').projectDir=new File('D:/AppKalla/easycx')
+
+

@@ -1,0 +1,246 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7029551451128059293",
+      "lastPropertyId": "3:7855658456820643186",
+      "name": "TipoTrackVO",
+      "properties": [
+        {
+          "id": "1:7170416808983325254",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6143122775642592569",
+          "name": "nombre",
+          "type": 9
+        },
+        {
+          "id": "3:7855658456820643186",
+          "name": "color",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8930671367383390278",
+      "lastPropertyId": "36:7190322151191939430",
+      "name": "TrackVO",
+      "properties": [
+        {
+          "id": "1:8384701993082117872",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1018880142370108300",
+          "name": "idTipoTrack",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "3:1671305168653452301",
+          "name": "idEmpresa",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:2169294402607266179",
+          "name": "idAplicacion",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "5:4705884545942626221",
+          "name": "nombreAplicacion",
+          "type": 9
+        },
+        {
+          "id": "6:5742220898597646865",
+          "name": "versionAplicacion",
+          "type": 9
+        },
+        {
+          "id": "7:2144999969025797582",
+          "name": "numeroMovil",
+          "type": 6,
+          "flags": 2
+        },
+        {
+          "id": "8:5184618886026592246",
+          "name": "imeiMovil",
+          "type": 9
+        },
+        {
+          "id": "9:3111923683762909445",
+          "name": "idUsuario",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "10:279076233389102891",
+          "name": "nombreUsuario",
+          "type": 9
+        },
+        {
+          "id": "11:4328670103642123169",
+          "name": "equipoTrabajo",
+          "type": 9
+        },
+        {
+          "id": "12:8217430879904834922",
+          "name": "colorEquipoTrabajo",
+          "type": 9
+        },
+        {
+          "id": "13:441497706264229486",
+          "name": "sucursal",
+          "type": 9
+        },
+        {
+          "id": "14:3096227086154881637",
+          "name": "idTransporte",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "15:388329349172474347",
+          "name": "nombreTransporte",
+          "type": 9
+        },
+        {
+          "id": "16:2172064945082924106",
+          "name": "tipoTransporte",
+          "type": 9
+        },
+        {
+          "id": "17:3048395310236877393",
+          "name": "proveedorTransporte",
+          "type": 9
+        },
+        {
+          "id": "18:584569099214311278",
+          "name": "colorProveedorTransporte",
+          "type": 9
+        },
+        {
+          "id": "19:3264243335888873697",
+          "name": "estado",
+          "type": 9
+        },
+        {
+          "id": "20:5302959923802570252",
+          "name": "colorEstado",
+          "type": 9
+        },
+        {
+          "id": "21:4321942800625103732",
+          "name": "idTrack",
+          "type": 9
+        },
+        {
+          "id": "22:5676527794166748",
+          "name": "fechaMovil",
+          "type": 9
+        },
+        {
+          "id": "23:250733082108446482",
+          "name": "fechaCapturaGps",
+          "type": 9
+        },
+        {
+          "id": "24:155192034518428842",
+          "name": "latitudPosicion",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "25:5422852888449103511",
+          "name": "longitudPosicion",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "26:8000275925913854982",
+          "name": "presicion",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "27:55900814454707245",
+          "name": "velocidad",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "28:6646632272893345737",
+          "name": "origen",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "29:6770986410079695008",
+          "name": "orientacion",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "30:5831478324743477490",
+          "name": "direccion",
+          "type": 9
+        },
+        {
+          "id": "31:1180527451827664417",
+          "name": "bateria",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "32:2126982885129322443",
+          "name": "ubicacion",
+          "type": 1,
+          "flags": 2
+        },
+        {
+          "id": "33:6701582883686010680",
+          "name": "frecuencia",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "34:3560139295330305510",
+          "name": "fechaProximoSeguimiento",
+          "type": 9
+        },
+        {
+          "id": "35:5816568924488201323",
+          "name": "evento",
+          "type": 9
+        },
+        {
+          "id": "36:7190322151191939430",
+          "name": "alertaUbicacion",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:8930671367383390278",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

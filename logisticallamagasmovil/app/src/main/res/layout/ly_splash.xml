@@ -2,5 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ly_splash" />
+    android:background="@drawable/ly_splash" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:text="Button" />
+</FrameLayout>
 

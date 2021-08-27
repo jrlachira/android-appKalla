@@ -40,18 +40,23 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:$project.ext.appcompatv7Version"
-    testImplementation 'junit:junit:4.12'
     implementation project(':easygps')
     implementation project(':easycx')
     implementation project(':easynotification')
-    implementation "com.google.android.gms:play-services-location:$project.ext.playserviceslocationVersion"
+    //implementation "com.google.android.gms:play-services-location:$project.ext.playserviceslocationVersion"
+    //implementation "com.google.android.gms:play-services-maps:$project.ext.playservicesmapsVersion"
     implementation "com.github.androidlibraries:slidingmenu:1.0.0"
-    implementation "com.google.android.gms:play-services-maps:$project.ext.playservicesmapsVersion"
     // Import the BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:28.4.0')
     // Declare the dependencies for the Crashlytics and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics'
+
     implementation "com.android.support.constraint:constraint-layout:$project.ext.constraintlayoutVersion"
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }

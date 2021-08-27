@@ -26,7 +26,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation 'com.google.code.gson:gson:2.8.4'
-    implementation "com.google.android.gms:play-services-location:$project.ext.playserviceslocationVersion"
     api "com.squareup.retrofit2:retrofit:$project.ext.retrofitVersion"
     api "com.squareup.retrofit2:converter-gson:$project.ext.retrofitVersion"
     implementation 'android.arch.persistence.room:runtime:1.0.0'

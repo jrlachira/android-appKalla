@@ -1,9 +1,13 @@
-package org.kalla.enterprise.movil.cron.data;
+package org.kalla.enterprise.movil.data;
+
 import android.content.Context;
 
+import org.kalla.enterprise.movil.gps.com.vo.MyObjectBox;
+
 import io.objectbox.BoxStore;
+
 public class BoxStoreDB {
-   private static  BoxStoreDB myBoxStoreDB ;
+    private static  BoxStoreDB myBoxStoreDB ;
     private BoxStore box;
 
     private static void createInstance(Context ctx) {
@@ -27,11 +31,11 @@ public class BoxStoreDB {
         return myBoxStoreDB;
     }
     private void initBD(Context ctx){
-      //box= MyObjectBox.builder().androidContext(ctx).build();
+        box= MyObjectBox.builder().androidContext(ctx).build();
     }
 
     public BoxStore getBox(){
         return box;
     }
-    /**/
+
 }

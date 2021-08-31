@@ -13,8 +13,6 @@ import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
-
-
 public class Utilidades {
 
     public static int obtenerVersionCode(Context context) {
@@ -106,7 +104,7 @@ public class Utilidades {
         return ret;
 
     }
-
+/*
     public static String getNumeroTelefono(Context context) {
         String telefono = "";
         try {
@@ -119,7 +117,7 @@ public class Utilidades {
         }
         return telefono;
     }
-
+*/
     public static String getDeviceName() {
         String manufacturer = Build.MANUFACTURER;
         String model = Build.MODEL;

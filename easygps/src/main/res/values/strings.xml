@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">suite_easygps</string>
+    <string name="permiso_gps">Necesita habilitar permisos de Ubicacion. para obtener la ubicacion</string>
+    <string name="latitude_longitude" translatable = "false">%1$.8f, %2$.8f</string>
+    <string name="configuraciones_no_diponibles">Configuraciones no disponibles.</string>
+</resources>

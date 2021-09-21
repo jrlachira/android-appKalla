@@ -174,7 +174,6 @@ public class Comunicacion extends Thread {
             e.printStackTrace();
             return connection;
         }
-
         try {
             if (url_L != null) {
                 CookieHandler.setDefault(new CookieManager(null, CookiePolicy.ACCEPT_ALL));
